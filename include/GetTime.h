@@ -1,6 +1,3 @@
-//! @file GetTime.h
-//! @author Matt Pillar
-//!
 //! This header file contains declarations for of time related functions in the
 //! thread manager namespace.
 
@@ -32,8 +29,7 @@ public:
     static std::string ShortString();
 };
 
-} // namespace ThreadMaster
+}
 
 #endif
-#endif // __cplusplus
-
+#endif

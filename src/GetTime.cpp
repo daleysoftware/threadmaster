@@ -1,6 +1,3 @@
-//! @file GetTime.cpp
-//! @author Matt Pillar
-//!
 //! This file contains the implementation of some time related functions in the
 //! thread master namespace.
 
@@ -53,5 +50,4 @@ std::string GetTime::ShortString()
     return std::string(buff);
 }
 
-} // namespace ThreadMaster
-
+}

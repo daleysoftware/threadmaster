@@ -1,6 +1,3 @@
-//! @file Lock.h
-//! @author Matt Pillar
-//!
 //! This header file contains declarations for the Lock class.
 
 #ifdef __cplusplus
@@ -37,8 +34,7 @@ public:
     void Give();
 };
 
-} // namespace ThreadMaster
+}
 
 #endif
-#endif // __cplusplus
-
+#endif

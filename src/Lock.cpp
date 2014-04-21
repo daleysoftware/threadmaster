@@ -1,6 +1,3 @@
-//! @file Lock.cpp
-//! @author Matt Pillar
-//!
 //! This file contains the implementation of the Lock class.
 
 #include "Lock.h"
@@ -28,5 +25,4 @@ void Lock::Take()
     pthread_mutex_unlock(&m_mutex);
 }
 
-} // namespace ThreadMaster
-
+}

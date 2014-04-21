@@ -1,6 +1,3 @@
-//! @file Thread.h
-//! @author Matt Pillar
-//!
 //! This header file contains declarations for the Thread class.
 
 #ifdef __cplusplus
@@ -95,8 +92,7 @@ public:
     void StopWait();
 };
 
-} // namespace ThreadMaster
+}
 
 #endif
-#endif // __cplusplus
-
+#endif

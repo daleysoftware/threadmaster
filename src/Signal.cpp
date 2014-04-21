@@ -1,6 +1,3 @@
-//! @file Signal.cpp
-//! @author Matt Pillar
-//!
 //! This file contains the implementation of the Signal class.
 
 #include <time.h>
@@ -66,5 +63,4 @@ void Signal::Clear()
     m_set = false;
 }
 
-} // namespace ThreadMaster
-
+}

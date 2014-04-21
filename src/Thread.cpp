@@ -1,6 +1,3 @@
-//! @file Thread.cpp
-//! @author Matt Pillar
-//!
 //! This file contains the implementation of the Thread class.
 
 #include "Thread.h"
@@ -89,5 +86,4 @@ void Thread::StopWait()
     Clear();
 }
 
-} // namespace ThreadMaster
-
+}

@@ -1,6 +1,3 @@
-//! @file Signal.h
-//! @author Matt Pillar
-//!
 //! This header file contains declarations for the Signal class.
 
 #ifdef __cplusplus
@@ -54,8 +51,7 @@ public:
     void Clear();
 };
 
-} // namespace ThreadMaster
+}
 
 #endif
-#endif // __cplusplus
-
+#endif

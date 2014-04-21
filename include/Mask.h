@@ -1,7 +1,5 @@
 // -----------------------------------------------------------------------------
 // This class is used to whiteout the edges of images for peak detection.
-//
-// Copyright (c) 2011 Matt Pillar. All rights reserved.
 // -----------------------------------------------------------------------------
 
 #ifndef API_WHITEOUT_MASK_H
@@ -43,6 +41,6 @@ public:
 
 };
 
-} // end namespace cs
+}
 
 #endif

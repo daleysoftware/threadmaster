@@ -1,6 +1,3 @@
-//! @file Delay.h
-//! @author Matt Pillar
-//!
 //! This header file contains declarations for of dleay related functions in the
 //! thread manager namespace.
 
@@ -25,8 +22,7 @@ public:
     static void Milli(uint64_t milli);
 };
 
-} // namespace ThreadMaster
+}
 
 #endif
-#endif // __cplusplus
-
+#endif

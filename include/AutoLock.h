@@ -1,6 +1,3 @@
-//! @file AutoLock.h
-//! @author Matt Pillar
-//!
 //! This header file contains declarations for the AutoLock class.
 
 #ifdef __cplusplus
@@ -37,8 +34,7 @@ public:
     }
 };
 
-} // namespace ThreadMaster
+}
 
 #endif
-#endif // __cplusplus
-
+#endif

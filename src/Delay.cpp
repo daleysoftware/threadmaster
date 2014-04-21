@@ -1,6 +1,3 @@
-//! @file Delay.cpp
-//! @author Matt Pillar
-//!
 //! This file contains the implementation of some delay related functions in the
 //! thread master namespace.
 
@@ -16,5 +13,4 @@ void Delay::Milli(uint64_t milli)
     usleep(milli * 1000);
 }
 
-} // namespace ThreadMaster
-
+}

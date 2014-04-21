@@ -1,6 +1,3 @@
-//! @file Timer.h
-//! @author Matt Pillar
-//!
 //! This header file contains declarations for the Timer class.
 
 #ifdef __cplusplus
@@ -46,8 +43,7 @@ public:
     void SetMilli(unsigned int milli) {m_milli = milli;}
 };
 
-} // namespace ThreadMaster
+}
 
 #endif
-#endif // __cplusplus
-
+#endif

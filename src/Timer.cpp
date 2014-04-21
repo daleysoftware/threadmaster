@@ -1,6 +1,3 @@
-//! @file Timer.cpp
-//! @author Matt Pillar
-//!
 //! This file contains the implementation of the Timer class.
 
 #include "Timer.h"
@@ -22,5 +19,4 @@ void Timer::Run(void* ptr)
     }
 }
 
-} // namespace ThreadMaster
-
+}
