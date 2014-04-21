@@ -5,7 +5,11 @@ OBJS = $(addprefix ., ${SRCS:.cpp=.o})
 
 LIBRARY = threadmaster.a
 
-all: ${LIBRARY}
+all: example
+
+example: ${LIBRARY}
+	@echo "$(shell date +%H:%M:%S) Building example..."
+	@g++ -I../include example.cpp ${LIBRARY} -o example
 
 ${LIBRARY}: ${OBJS}
 	@echo "$(shell date +%H:%M:%S) Linking..."

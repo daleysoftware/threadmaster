@@ -1,7 +1,3 @@
-//! This header file contains declarations for the Signal class.
-
-#ifdef __cplusplus
-
 #ifndef THREADMASTER_SIGNAL_H
 #define THREADMASTER_SIGNAL_H
 
@@ -53,5 +49,4 @@ public:
 
 }
 
-#endif
 #endif

@@ -1,7 +1,3 @@
-//! This header file contains declarations for the Thread class.
-
-#ifdef __cplusplus
-
 #ifndef THREADMASTER_THREAD_H
 #define THREADMASTER_THREAD_H
 
@@ -94,5 +90,4 @@ public:
 
 }
 
-#endif
 #endif

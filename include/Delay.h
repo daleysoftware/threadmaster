@@ -1,8 +1,3 @@
-//! This header file contains declarations for of dleay related functions in the
-//! thread manager namespace.
-
-#ifdef __cplusplus
-
 #ifndef THREADMASTER_DELAY_H
 #define THREADMASTER_DELAY_H
 
@@ -24,5 +19,4 @@ public:
 
 }
 
-#endif
 #endif

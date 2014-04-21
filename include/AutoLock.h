@@ -1,7 +1,3 @@
-//! This header file contains declarations for the AutoLock class.
-
-#ifdef __cplusplus
-
 #ifndef THREADMASTER_AUTOLOCK_H
 #define THREADMASTER_AUTOLOCK_H
 
@@ -10,7 +6,7 @@
 namespace ThreadMaster
 {
 
-//! @brief An AutoLock simplifies locking by giving and taking locks using scope
+//! @brief An AutoLock simplifies locking by giving and taking locks using scope.
 //!
 //! This class can be used to scope a lock to simplify the giving and taking of
 //! locks.
@@ -36,5 +32,4 @@ public:
 
 }
 
-#endif
 #endif

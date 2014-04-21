@@ -1,7 +1,3 @@
-//! This header file contains declarations for the Lock class.
-
-#ifdef __cplusplus
-
 #ifndef THREADMASTER_LOCK_H
 #define THREADMASTER_LOCK_H
 
@@ -36,5 +32,4 @@ public:
 
 }
 
-#endif
 #endif

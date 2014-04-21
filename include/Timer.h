@@ -1,7 +1,3 @@
-//! This header file contains declarations for the Timer class.
-
-#ifdef __cplusplus
-
 #ifndef THREADMASTER_TIMER_H
 #define THREADMASTER_TIMER_H
 
@@ -45,5 +41,4 @@ public:
 
 }
 
-#endif
 #endif

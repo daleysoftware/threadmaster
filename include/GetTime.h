@@ -1,8 +1,3 @@
-//! This header file contains declarations for of time related functions in the
-//! thread manager namespace.
-
-#ifdef __cplusplus
-
 #ifndef THREADMASTER_GETTIME_H
 #define THREADMASTER_GETTIME_H
 
@@ -31,5 +26,4 @@ public:
 
 }
 
-#endif
 #endif
